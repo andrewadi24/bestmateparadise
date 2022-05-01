@@ -733,3 +733,32 @@ a{
     padding-top: 5px;
     padding-bottom: 5px;
 }
+.transactions{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.transactions h1{
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+.transactions table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+} 
+.transactions td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+.transactions tr:nth-child(even) {
+    background-color: #dddddd;
+}
