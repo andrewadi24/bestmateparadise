@@ -1,8 +1,7 @@
 Pets list
 Footer links
-edit profile (profile.html) 
-transaction history in (profile.html)
-Privacy policy
+edit profile button (profile.html) 
 Hamburger menu onclick (manage profile, logout, login missing)
-Add pictures for facilities
 Register new pet
+Site map diagram
+References list
