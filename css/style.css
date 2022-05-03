@@ -766,3 +766,8 @@ a{
 .transactions tr:nth-child(even) {
     background-color: #dddddd;
 }
+.faq-card h1{
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 30px;
+}

@@ -1,4 +1,4 @@
-Pets list (types of pets allowed in best
+Pets list
 Footer links
 edit profile button (profile.html) 
 Hamburger menu onclick (manage profile, logout, login missing)
