@@ -424,17 +424,23 @@ margin-bottom: 20px;
 
 .sitemap-tree-wrapper ul {
     display: block;
-    padding: 1.5%;
+    padding: 1%;
 }
-
 .sitemap-tree-wrapper li {
-    display: block;
+    list-style-type: disc;
+    display: list-item;
 }
 
 .sitemap-tree-wrapper a {
     text-decoration: underline;
 }
-
+.sitemap-diagram-wrapper img {
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
 .review-wrapper{
     width: 1400px;
     margin: auto;
