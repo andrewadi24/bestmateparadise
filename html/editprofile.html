@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/mobile.css">
+        <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="John Doe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+    </head>
+    <body>
+        <div class="navbar-wrapper">
+            <div class="navbar">
+                <a href="./dashboard.html"><div class="logo"><img src="https://drive.google.com/uc?export=view&id=15dTTlb-J6yn8H7WukM4TV5X3wT_Hy_p2"></div></a>
+                <div class="navigation">
+                    <ul>
+                        <li><a href="./dashboard.html#location">Locations</a></li>
+                        <li><a href="./dashboard.html#contact">Contact us</a></li>
+                        <li><a href="./pets.html">Pets list</a></li>
+                        <li><a href="./about.html">About us</a></li>
+                        <li><a href="./sitemap.html">Sitemap</a></li>
+                    </ul>
+                </div>
+                <div class="navigation"><a href="./profile.html"><div  class="btn">Profile</div> </a></div>
+                <div class="mobile">
+                    <div class="hamburger" id="hamburger1">
+                        <div class="line"></div>
+                        <div class="line middle"></div>
+                        <div class="line"></div>
+                    </div>
+                </div>
+                <div class="mobile-nav hidden" id ="mobile-nav1">
+                    <ul>
+                        <li><a href="./dashboard.html#locations">Locations</a></li>
+                        <li><a href="./dashboard.html#contact">Contact us</a></li>
+                        <li><a href="#contact">Pets list</a></li>
+                        <li><a href="./about.html">About us</a></li>
+                        <li><a href="./sitemap.html">Sitemap</a></li>
+                    </ul>
+                    <div class="close" id ="close1">X</div>
+                </div>
+            </div>
+        </div>
+        <div class="booking-container">
+            <div class="head">
+                <h1>Edit profile</h1>
+            </div>
+            <form class="booking-form">
+                <label class="label">Full Name</label>
+                <input class="input">
+                <label class="label">Email address</label>
+                <input class="input" type="email">
+                <label class="label">Phone number</label>
+                <input type = "tel">
+                <label class="label">Password</label>
+                <input type = "password">
+                  <div class="wrap">
+                    <a href="./dashboard.html" onclick="myalert()"><div class="confirm-btn">Confirm</div></a>
+                  </div>
+            </form>
+            
+        </div>
+        <div class="footer">
+            <div class="footer-wrapper">
+                <div class="left">
+                    <h1>Contact us</h1>
+                    <p>Address: 123, four street, 456</p>
+                    <p>Phone number: +65 123 456 789</p>
+                    <p>Email Address: enquires@bestmateparadise.com</p>
+                </div>
+                <div class="middle">
+                    <h1>Social Media</h1>
+                </div>
+                <div class="right">
+                    <h1>Navigate</h1>
+                    <p><a href="./profile.html">My profile</a></p>
+                    <p><a href="./location.html">Locations</a></p>
+                    <p><a href="./about.html">About us</a></p>
+                    <p><a href="./sitemap.html">Site map</a></p>
+                    <p><a href="./privacy-policy.html">Privacy policy</a></p>
+                </div>
+            </div>
+        </div>
+        <script src="../javascript/functions.js"></script> 
+    </body>
+</html> 
