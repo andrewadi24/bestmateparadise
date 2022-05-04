@@ -250,7 +250,7 @@ textarea{
 
 .footer-wrapper{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: auto;
     max-width: 1400px;
 }
@@ -662,6 +662,21 @@ text-align: center;
     border-radius: 10px;
     font-size: 25px; 
 }
+.confirm-btn1{
+    background-color: #33658A;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 25px; 
+}
+.full{
+    width: 100%!important;
+}
 a{
     width: max-content;
 }
@@ -805,4 +820,13 @@ a{
 .map h1{
     font-size: 50px;
     text-align: center;
+    max-width: 100vw;
+}
+.input{
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+}
+.my-area{
+    margin-top: 20px;
 }
