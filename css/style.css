@@ -715,6 +715,8 @@ a{
     margin-top: 30px;
     margin-left: -114px;
 }
+
+/* Privacy policy*/
 .privacy-policy-container{
     width: 1400px;
     margin: auto;
@@ -742,6 +744,21 @@ a{
     padding-top: 5px;
     padding-bottom: 5px;
 }
+.privacy-policy-container ul {
+    display: block;
+    padding: 1%;
+}
+.privacy-policy-container li {
+    list-style-type: disc;
+    display: list-item;
+}
+.privacy-policy-container a {
+    text-decoration: underline;
+}
+.privacy-policy-container strong {
+    font-weight: bold;
+}
+
 /* Transactions */
 .transactions{
     margin-top: 20px;
